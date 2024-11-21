@@ -1,0 +1,28 @@
+
+*{
+margin:0;
+padding:0;
+list-style-type:none;
+text-decoration:none;
+}
+
+:root{
+  --background: wheat;
+  --text:black;
+}
+@media (prefers-color-scheme: dark) {
+  :root{
+    --background: black;
+    --text:white;
+  }
+ 
+}
+
+
+body{
+  background-color:var(--background);
+  color:var(--text);
+  font-family:"Noto Sans";
+}
+
+
