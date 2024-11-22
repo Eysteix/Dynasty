@@ -3,11 +3,16 @@
   "version": "1.0.0",
   "main": "./Js/main.mjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "design":"npx tailwindcss -i ./scss/style.css -o ./scss/output.css --watch"
   },
   "keywords": [],
   "author": "",
+  
   "license": "ISC",
   "type": "module",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.15"
+  }
 }
